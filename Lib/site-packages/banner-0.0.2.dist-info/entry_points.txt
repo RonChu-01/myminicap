@@ -1,0 +1,3 @@
+[console_scripts]
+banner = banner.main:Banner
+

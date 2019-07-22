@@ -107,7 +107,7 @@ class MinicapStream:
                             return
                         print(dataBody)
                         self.picture.put(dataBody)
-                        # self.save_file('d:/pic.png', dataBody)
+                        self.save_file('d:/pic.png', dataBody)
                         cursor += frameBodylength
                         frameBodylength = 0
                         readFrameBytes = 0

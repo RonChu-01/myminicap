@@ -12,12 +12,12 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_Form(object):
     def setupUi(self, Form):
         Form.setObjectName("Form")
-        Form.resize(1013, 552)
+        Form.resize(1105, 662)
         self.widget_display = QtWidgets.QWidget(Form)
-        self.widget_display.setGeometry(QtCore.QRect(660, 0, 350, 550))
+        self.widget_display.setGeometry(QtCore.QRect(720, 0, 380, 660))
         self.widget_display.setObjectName("widget_display")
         self.widget_edit = QtWidgets.QWidget(Form)
-        self.widget_edit.setGeometry(QtCore.QRect(0, 0, 661, 551))
+        self.widget_edit.setGeometry(QtCore.QRect(0, 0, 721, 661))
         self.widget_edit.setObjectName("widget_edit")
 
         self.retranslateUi(Form)
